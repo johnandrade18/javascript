@@ -11,6 +11,7 @@ console.log('nombre completo', nombre  +' '+  apellido)
 console.log('nombre completo 2' , `${nombre} ${apellido}`);
 
 const nombreCompleto = `${nombre} ${apellido}`
+
 // Busqued de coincidencias en un texto
 console.log('nombre completo 3', nombreCompleto.indexOf("lópez"));
 console.log('nombre completo 3', nombreCompleto.includes("John"));
